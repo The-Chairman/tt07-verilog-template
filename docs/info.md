@@ -78,12 +78,12 @@ chip listens on **Input\[0:5\]**. It waits until the positive edge of
 The chip utilizes the carrier chip's 7 segment display to echo a value 
 corresponding to the input data:
 
-| Input\[1:4\] | Display Value |
-| :----------: | :-----------: |
-| 1000 | 1 |
-| 0100 | 2 |
-| 0010 | 4 |
-| 0001 | 8 |
+| Input\[1:4\] | Output Value | Display Value |
+| :----------: | :-----------: | :-----------: |
+| 1000 | 0000_0110 | 1 |
+| 0100 | 0101_1011 | 2 |
+| 0010 | 0110_0110 | 4 |
+| 0001 | 0111_1111 | 8 |
 
 The receiver initially displays zero (on the 7-segment display) until it
 receives the read signal from the sender. The receiver then displays the
