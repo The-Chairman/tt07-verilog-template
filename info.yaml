@@ -20,24 +20,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "Button 1/Message Ready"
-  ui[1]: "Button 2/recv_bit[0]"
-  ui[2]: "Button 3/recv_bit[1]"
-  ui[3]: "Button 4/recv_bit[2]"
+  ui[0]: "Input[0]/Message Ready"
+  ui[1]: "Input[1]/recv_bit[0]"
+  ui[2]: "Input[2]/recv_bit[1]"
+  ui[3]: "Input[3]/recv_bit[2]"
   ui[4]: "unused/recv_bit[3]"
   ui[5]: "unused"
   ui[6]: "unused"
-  ui[7]: "Sender/Receiver (0/1)"
+  ui[7]: "Sender/Receiver Mode Select (0/1)"
 
   # Outputs
-  uo[0]: "Message Ready"
-  uo[1]: "Button 1"
-  uo[2]: "Button 2"
-  uo[3]: "Button 3"
-  uo[4]: "Button 4"
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: "Mode of connect chip"
+  uo[0]: "Transmit/LCD Display Value[0]"
+  uo[1]: "input[0]/LCD Display Value[1]"
+  uo[2]: "Input[1]/LCD Display Value[2]"
+  uo[3]: "Input[2]/LCD Display Value[3]"
+  uo[4]: "Input[3]/LCD Display Value[4]"
+  uo[5]: "unused/LCD Display Value[5]"
+  uo[6]: "unused/LCD Display Value[6]"
+  uo[7]: "Mode of connected chip//LCD Display Value[7]"
 
   # Bidirectional pins
   uio[0]: ""
